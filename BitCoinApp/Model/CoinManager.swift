@@ -50,7 +50,7 @@ struct CoinManager {
         }
         catch{
             self.delegate?.didFailWithError(error: error)
-            return 0.0
+            return nil
             
         }
     }
